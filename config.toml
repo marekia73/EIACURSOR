@@ -1,0 +1,29 @@
+[server]
+runOnSave = false
+# Headless para producción
+headless = true
+# Puerto por defecto
+port = 8501
+# Evitar CORS en producción
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+# Reducir reejecución innecesaria
+showErrorDetails = false
+
+[theme]
+# Estética profesional: tonos verdes/azules institucionales
+primaryColor = "#2E7D32"
+backgroundColor = "#FAFAFA"
+secondaryBackgroundColor = "#F5F5F5"
+textColor = "#1A1A1A"
+font = "sans serif"
+
+[runner]
+# Optimizar reejecución
+fastReruns = true

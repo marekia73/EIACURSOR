@@ -1,0 +1,43 @@
+/* Estilos profesionales para Generador EIA */
+
+/* Ocultar mensajes de error técnicos en producción */
+[data-testid="stException"] {
+    border-left: 4px solid #FF9800 !important;
+    background: #FFF8E1 !important;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+/* Sidebar más limpia */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #f8faf8 0%, #f0f4f0 100%);
+}
+
+/* Botones primarios más profesionales */
+.stButton > button {
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 8px rgba(46, 125, 50, 0.25);
+}
+
+/* Cards y contenedores */
+[data-testid="stExpander"] {
+    border-radius: 8px;
+    border: 1px solid #E0E0E0;
+}
+
+/* Tablas más legibles */
+[data-testid="stDataFrame"] {
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+/* Spinner más discreto */
+.stSpinner > div {
+    border-top-color: #2E7D32 !important;
+}
